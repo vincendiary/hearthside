@@ -1,0 +1,47 @@
+{
+	"name": "hearthside",
+	"displayName": "Hearthside",
+	"description": "A warm, dark theme for Visual Studio Code. Based on the Horizon and Celestial themes.",
+	"version": "0.0.1",
+	"publisher": "vincendiary",
+	"license": "MIT",
+	"author": {
+		"name": "Vincent Nguyen",
+		"email": "vincentn337@gmail.com",
+		"url": "https://github.com/vincendiary"
+	},
+	"homepage": "https://github.com/vincendiary/hearthside",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/vincendiary/hearthside"
+	},
+	"engines": {
+		"vscode": "^1.118.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"extensionKind": [
+		"ui",
+		"workspace"
+	],
+	"keywords": [
+		"theme",
+		"dark",
+		"hearthside",
+		"horizon",
+		"celestial",
+		"warm",
+		"pink",
+		"red"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Hearthside",
+				"uiTheme": "vs-dark",
+				"path": "./themes/hearthside.json"
+			}
+		]
+	}
+}
