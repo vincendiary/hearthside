@@ -213,6 +213,11 @@
 			"settings": { "foreground": "#FAC29AE6" }
 		},
 		{
+			"name": "Variable property",
+			"scope": "variable.other.property",
+			"settings": { "foreground": "#FAB795E6" }
+		},
+		{
 			"name": "Keywords",
 			"scope": "keyword",
 			"settings": { "foreground": "#B877DBE6", "fontStyle": "italic" }
